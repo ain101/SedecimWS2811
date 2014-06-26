@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G" name="WS2811">
+  <Target name="WS2811" isCurrent="1">
+    <Device manufacturerId="9" manufacturerName="ST" chipId="344" chipName="STM32F407VG" boardId="" boardName=""/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="1"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value=" -std=gnu99"/>
+        <Option name="FPU" value="2"/>
+        <Includepaths>
+          <Includepath path="."/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="STM32F407VG"/>
+          <Define name="STM32F4XX"/>
+          <Define name="USE_STDPERIPH_DRIVER"/>
+          <Define name="__ASSEMBLY__"/>
+          <Define name="__FPU_USED"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="0"/>
+        <Option name="Library" value="Not use C Library"/>
+        <Option name="UserEditLinker" value=""/>
+        <LinkedLibraries>
+          <Libset dir="..\..\..\..\..\..\gnu_tools_arm_embedded\4.7_2013q2\arm-none-eabi\lib\armv7e-m\fpu\" libs="m"/>
+        </LinkedLibraries>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00100000" startValue="0x08000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00020000" startValue="0x20000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="0x00010000" startValue="0x10000000"/>
+        </MemoryAreas>
+        <LocateLinkFile path="./arm-gcc-link.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="WS2811"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="ST-Link"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="1M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="SYSRESETREQ"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="STM32F4xx_1024.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./"/>
+  <Files>
+    <File name="cmsis_lib/include/stm32f4xx_flash.h" path="cmsis_lib/include/stm32f4xx_flash.h" type="1"/>
+    <File name="ub_lib/stm32_ub_led.c" path="ub_lib/stm32_ub_led.c" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usb_regs.h" path="ub_lib/usb_cdc_lolevel/usb_regs.h" type="1"/>
+    <File name="ub_lib/irmp_lolevel/irmpsystem.h" path="ub_lib/irmp_lolevel/irmpsystem.h" type="1"/>
+    <File name="pictures/GIF/axterix.c" path="pictures/GIF/axterix.c" type="1"/>
+    <File name="pictures/BMP/strawhat.c" path="pictures/BMP/strawhat.c" type="1"/>
+    <File name="ub_lib/stm32_ub_usb_cdc.h" path="ub_lib/stm32_ub_usb_cdc.h" type="1"/>
+    <File name="cmsis_boot/stm32f4xx.h" path="cmsis_boot/stm32f4xx.h" type="1"/>
+    <File name="cmsis/core_cm4_simd.h" path="cmsis/core_cm4_simd.h" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usb_core.c" path="ub_lib/usb_cdc_lolevel/usb_core.c" type="1"/>
+    <File name="cmsis/core_cmFunc.h" path="cmsis/core_cmFunc.h" type="1"/>
+    <File name="pictures/GIF/sonic.c" path="pictures/GIF/sonic.c" type="1"/>
+    <File name="ub_lib/usb_mem.c" path="ub_lib/usb_mem.c" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usbd_desc.c" path="ub_lib/usb_cdc_lolevel/usbd_desc.c" type="1"/>
+    <File name="pictures/GIF/mario2.c" path="pictures/GIF/mario2.c" type="1"/>
+    <File name="pictures/GIF/MarioAtack2.c" path="pictures/GIF/MarioAtack2.c" type="1"/>
+    <File name="pictures/BMP/F-Zero.c" path="pictures/BMP/F-Zero.c" type="1"/>
+    <File name="pictures/pictures.c" path="pictures/pictures.c" type="1"/>
+    <File name="Arduino" path="" type="2"/>
+    <File name="pictures/BMP/GAMMA.c" path="pictures/BMP/GAMMA.c" type="1"/>
+    <File name="ub_lib/stm32_ub_led.h" path="ub_lib/stm32_ub_led.h" type="1"/>
+    <File name="pictures/BMP/ATN_Random.c" path="pictures/BMP/ATN_Random.c" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usb_dcd.c" path="ub_lib/usb_cdc_lolevel/usb_dcd.c" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usbd_desc.h" path="ub_lib/usb_cdc_lolevel/usbd_desc.h" type="1"/>
+    <File name="ub_lib/led_usb.c" path="ub_lib/led_usb.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_rcc.h" path="cmsis_lib/include/stm32f4xx_rcc.h" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usbd_usr.h" path="ub_lib/usb_cdc_lolevel/usbd_usr.h" type="1"/>
+    <File name="pictures/BMP/Zorro.c" path="pictures/BMP/Zorro.c" type="1"/>
+    <File name="cmsis_boot/startup/startup_stm32f4xx.c" path="cmsis_boot/startup/startup_stm32f4xx.c" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_rcc.c" path="cmsis_lib/source/stm32f4xx_rcc.c" type="1"/>
+    <File name="ub_lib/irmp_lolevel/irmpconfig.h" path="ub_lib/irmp_lolevel/irmpconfig.h" type="1"/>
+    <File name="cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>
+    <File name="ub_lib/stm32_ub_ee_flash.h" path="ub_lib/stm32_ub_ee_flash.h" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usb_conf.h" path="ub_lib/usb_cdc_lolevel/usb_conf.h" type="1"/>
+    <File name="ub_lib/irmp_lolevel/irmp.h" path="ub_lib/irmp_lolevel/irmp.h" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usbd_core.h" path="ub_lib/usb_cdc_lolevel/usbd_core.h" type="1"/>
+    <File name="pictures/BMP/USB.c" path="pictures/BMP/USB.c" type="1"/>
+    <File name="ub_lib/usb_mem.h" path="ub_lib/usb_mem.h" type="1"/>
+    <File name="ub_lib" path="" type="2"/>
+    <File name="pictures/BMP/stm32F4.c" path="pictures/BMP/stm32F4.c" type="1"/>
+    <File name="ub_lib/irmp_lolevel/irmpprotocols.h" path="ub_lib/irmp_lolevel/irmpprotocols.h" type="1"/>
+    <File name="pictures" path="" type="2"/>
+    <File name="cmsis_boot/system_stm32f4xx.c" path="cmsis_boot/system_stm32f4xx.c" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usbd_req.c" path="ub_lib/usb_cdc_lolevel/usbd_req.c" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usb_dcd.h" path="ub_lib/usb_cdc_lolevel/usb_dcd.h" type="1"/>
+    <File name="ub_lib/stm32_ub_button.c" path="ub_lib/stm32_ub_button.c" type="1"/>
+    <File name="cmsis" path="" type="2"/>
+    <File name="ub_lib/usb_cdc_lolevel/usbd_core.c" path="ub_lib/usb_cdc_lolevel/usbd_core.c" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usbd_req.h" path="ub_lib/usb_cdc_lolevel/usbd_req.h" type="1"/>
+    <File name="cmsis_lib" path="" type="2"/>
+    <File name="cmsis_boot/readme.txt" path="cmsis_boot/readme.txt" type="1"/>
+    <File name="cmsis_lib/include/misc.h" path="cmsis_lib/include/misc.h" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usb_bsp.c" path="ub_lib/usb_cdc_lolevel/usb_bsp.c" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usb_core.h" path="ub_lib/usb_cdc_lolevel/usb_core.h" type="1"/>
+    <File name="pictures/GIF/avatar.c" path="pictures/GIF/avatar.c" type="1"/>
+    <File name="pictures/GIF" path="" type="2"/>
+    <File name="pictures/BMP/ich.c" path="pictures/BMP/ich.c" type="1"/>
+    <File name="main.c" path="main.c" type="1"/>
+    <File name="ub_lib/stm32_ub_usb_cdc.c" path="ub_lib/stm32_ub_usb_cdc.c" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_gpio.c" path="cmsis_lib/source/stm32f4xx_gpio.c" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_dma.c" path="cmsis_lib/source/stm32f4xx_dma.c" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usbd_ioreq.h" path="ub_lib/usb_cdc_lolevel/usbd_ioreq.h" type="1"/>
+    <File name="cmsis_boot" path="" type="2"/>
+    <File name="cmsis_lib/source/stm32f4xx_flash.c" path="cmsis_lib/source/stm32f4xx_flash.c" type="1"/>
+    <File name="cmsis_boot/startup" path="" type="2"/>
+    <File name="ub_lib/usb_cdc_lolevel/usb_bsp.h" path="ub_lib/usb_cdc_lolevel/usb_bsp.h" type="1"/>
+    <File name="ub_lib/stm32_ub_button.h" path="ub_lib/stm32_ub_button.h" type="1"/>
+    <File name="cmsis/core_cm4.h" path="cmsis/core_cm4.h" type="1"/>
+    <File name="ub_lib/irmp_lolevel/irmp.c" path="ub_lib/irmp_lolevel/irmp.c" type="1"/>
+    <File name="ws2811_Lib/ws2811.c" path="ws2811_Lib/ws2811.c" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usb_defines.h" path="ub_lib/usb_cdc_lolevel/usb_defines.h" type="1"/>
+    <File name="ub_lib/stm32_ub_ee_flash.c" path="ub_lib/stm32_ub_ee_flash.c" type="1"/>
+    <File name="cmsis_lib/source/misc.c" path="cmsis_lib/source/misc.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_tim.h" path="cmsis_lib/include/stm32f4xx_tim.h" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usbd_cdc_core.c" path="ub_lib/usb_cdc_lolevel/usbd_cdc_core.c" type="1"/>
+    <File name="cmsis_lib/source" path="" type="2"/>
+    <File name="ub_lib/usb_cdc_lolevel/usbd_def.h" path="ub_lib/usb_cdc_lolevel/usbd_def.h" type="1"/>
+    <File name="ub_lib/stm32_ub_irmp.c" path="ub_lib/stm32_ub_irmp.c" type="1"/>
+    <File name="pictures/GIF/tunnel.c" path="pictures/GIF/tunnel.c" type="1"/>
+    <File name="Arduino/WMath.c" path="Arduino/WMath.c" type="1"/>
+    <File name="pictures/GUI.h" path="pictures/GUI.h" type="1"/>
+    <File name="ub_lib/irmp_lolevel" path="" type="2"/>
+    <File name="pictures/BMP/Linkbig.c" path="pictures/BMP/Linkbig.c" type="1"/>
+    <File name="cmsis_boot/stm32f4xx_conf.h" path="cmsis_boot/stm32f4xx_conf.h" type="1"/>
+    <File name="pictures/pictures.h" path="pictures/pictures.h" type="1"/>
+    <File name="cmsis_boot/system_stm32f4xx.h" path="cmsis_boot/system_stm32f4xx.h" type="1"/>
+    <File name="ws2811_Lib/ws2811.h" path="ws2811_Lib/ws2811.h" type="1"/>
+    <File name="pictures/BMP/Mario.c" path="pictures/BMP/Mario.c" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usb_dcd_int.c" path="ub_lib/usb_cdc_lolevel/usb_dcd_int.c" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel" path="" type="2"/>
+    <File name="pictures/GIF/BlueFalcon2.c" path="pictures/GIF/BlueFalcon2.c" type="1"/>
+    <File name="pictures/BMP/bio.c" path="pictures/BMP/bio.c" type="1"/>
+    <File name="ub_lib/stm32_ub_systick.h" path="ub_lib/stm32_ub_systick.h" type="1"/>
+    <File name="pictures/BMP/ATN_Rainbow.c" path="pictures/BMP/ATN_Rainbow.c" type="1"/>
+    <File name="ub_lib/led_usb.h" path="ub_lib/led_usb.h" type="1"/>
+    <File name="pictures/GIF/ATN_rotate.c" path="pictures/GIF/ATN_rotate.c" type="1"/>
+    <File name="Arduino/WMath.h" path="Arduino/WMath.h" type="1"/>
+    <File name="rc5.h" path="rc5.h" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usb_dcd_int.h" path="ub_lib/usb_cdc_lolevel/usb_dcd_int.h" type="1"/>
+    <File name="pictures/BMP/ATN_Logo.c" path="pictures/BMP/ATN_Logo.c" type="1"/>
+    <File name="ws2811_Lib" path="" type="2"/>
+    <File name="ub_lib/usb_cdc_lolevel/usbd_ioreq.c" path="ub_lib/usb_cdc_lolevel/usbd_ioreq.c" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usbd_cdc_vcp.c" path="ub_lib/usb_cdc_lolevel/usbd_cdc_vcp.c" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usbd_cdc_core.h" path="ub_lib/usb_cdc_lolevel/usbd_cdc_core.h" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usbd_usr.c" path="ub_lib/usb_cdc_lolevel/usbd_usr.c" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usbd_cdc_vcp.h" path="ub_lib/usb_cdc_lolevel/usbd_cdc_vcp.h" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_dma.h" path="cmsis_lib/include/stm32f4xx_dma.h" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_tim.c" path="cmsis_lib/source/stm32f4xx_tim.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_gpio.h" path="cmsis_lib/include/stm32f4xx_gpio.h" type="1"/>
+    <File name="ub_lib/stm32_ub_irmp.h" path="ub_lib/stm32_ub_irmp.h" type="1"/>
+    <File name="pictures/BMP" path="" type="2"/>
+    <File name="cmsis_lib/include" path="" type="2"/>
+    <File name="pictures/GIF/Rayman.c" path="pictures/GIF/Rayman.c" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usbd_conf.h" path="ub_lib/usb_cdc_lolevel/usbd_conf.h" type="1"/>
+    <File name="pictures/BMP/stm32.c" path="pictures/BMP/stm32.c" type="1"/>
+    <File name="ub_lib/stm32_ub_systick.c" path="ub_lib/stm32_ub_systick.c" type="1"/>
+  </Files>
+</Project>

@@ -1,0 +1,1795 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\ub_lib\irmp_lolevel /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\cmsis_boot /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\Arduino /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\cmsis_lib\include /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\cmsis_lib /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\ub_lib /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\cmsis /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\pictures /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14 /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\ub_lib\usb_cdc_lolevel /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\ws2811_Lib">
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.c" lastModified="13de4a0ac80">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+      </source>
+      <source file="..\..\..\pictures\pictures.c" lastModified="145a5fbe8ca">
+         <include file="..\..\..\pictures\pictures.h"/>
+      </source>
+      <source file="..\..\..\pictures\BMP\ATN_Random.c" lastModified="145fc2161a5">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\pictures\GIF\Rayman.c" lastModified="145aa37f21e">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h" lastModified="13de499af70">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+      </source>
+      <source file="..\..\..\pictures\BMP\Linkbig.c" lastModified="1456c706eda">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.c" lastModified="1415e9c1c45">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_regs.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="13ec889a653">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\pictures\BMP\USB.c" lastModified="145fe9ecedd">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="13ec889d5b4">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\pictures\GIF\ATN_rotate.c" lastModified="145fd245015">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\Arduino\WMath.h" lastModified="13a71012522">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="13ec889b33e">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\Arduino\WMath.c" lastModified="13a714d7ea2">
+         <include file="..\..\..\Arduino\WMath.h"/>
+      </source>
+      <source file="..\..\..\pictures\GIF\MarioAtack2.c" lastModified="145a788198e">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h" lastModified="13de499edf0">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+      </source>
+      <source file="..\..\..\pictures\GIF\avatar.c" lastModified="145aa364bb6">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.c" lastModified="13de4a00870">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\pictures\GUI.h" lastModified="1455c844be4">
+         <include file="..\..\..\pictures\pictures.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="13ec889d5b4">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_systick.h" lastModified="13ea8d48185">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\pictures\BMP\ATN_Rainbow.c" lastModified="145fd11104a">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_systick.c" lastModified="13ec903df44">
+         <include file="..\..\..\ub_lib\stm32_ub_systick.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_led.h" lastModified="13cc55be700">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="13ec889a644">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_regs.h" lastModified="13de4af0460">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\pictures\BMP\Mario.c" lastModified="1456c6a9a06">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_led.c" lastModified="13cc5289260">
+         <include file="..\..\..\ub_lib\stm32_ub_led.h"/>
+      </source>
+      <source file="..\..\..\pictures\BMP\Zorro.c" lastModified="1456c7132db">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="13ec889ca3f">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\pictures\BMP\strawhat.c" lastModified="1456c87111f">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_button.h" lastModified="141939fd2f8">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_flash.c" lastModified="140ef3bfa20">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmpconfig.h" lastModified="14596182baf">
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_button.c" lastModified="14193911970">
+         <include file="..\..\..\ub_lib\stm32_ub_button.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="13ec889a423">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="13ec889a25e">
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h" lastModified="13de4975db0">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="13ec889a655">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="13ec889a25d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmpprotocols.h" lastModified="13e88ee0b70">
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.c" lastModified="13de4a8f980">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_mem.h" lastModified="1446106c639">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_led.h"/>
+      </source>
+      <source file="..\..\..\pictures\GIF\axterix.c" lastModified="145aa51b2cc">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_mem.c" lastModified="14488587627">
+         <include file="..\..\..\ub_lib\usb_mem.h"/>
+      </source>
+      <source file="..\..\..\pictures\GIF\BlueFalcon2.c" lastModified="145a78a0725">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmp.h" lastModified="13e88eddc90">
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmpsystem.h"/>
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmpconfig.h"/>
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmpprotocols.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_defines.h" lastModified="13de4af0460">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmp.c" lastModified="13e89181528">
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\led_usb.h" lastModified="144fe821c9a">
+         <include file="..\..\..\ub_lib\usb_mem.h"/>
+      </source>
+      <source file="..\..\..\pictures\BMP\ich.c" lastModified="1455d8c58c3">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.h" lastModified="14209535ff6">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_mem.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\led_usb.c" lastModified="145957c2ee4">
+         <include file="..\..\..\ub_lib\led_usb.h"/>
+      </source>
+      <source file="..\..\..\rc5.h" lastModified="14557f93fe5">
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_usb_cdc.h" lastModified="13de487f460">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.h" lastModified="13de4a88450">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="13ec889a654">
+      </source>
+      <source file="..\..\..\pictures\BMP\F-Zero.c" lastModified="1455de2bbe4">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.c" lastModified="145957bf786">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_led.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_usb_cdc.c" lastModified="13f70f21a10">
+         <include file="..\..\..\ub_lib\stm32_ub_usb_cdc.h"/>
+      </source>
+      <source file="..\..\..\ws2811_Lib\ws2811.h" lastModified="145961ae7ba">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.c" lastModified="13f70f21240">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="13ec893acb3">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h" lastModified="142b82d6e34">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ws2811_Lib\ws2811.c" lastModified="145ba4b2e68">
+         <include file="..\..\..\ws2811_Lib\ws2811.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_systick.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_led.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="13ec889ca55">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_ee_flash.h" lastModified="145677362e6">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h"/>
+      </source>
+      <source file="..\..\..\pictures\GIF\mario2.c" lastModified="145a78dfbf6">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_ee_flash.c" lastModified="140ef417090">
+         <include file="..\..\..\ub_lib\stm32_ub_ee_flash.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h" lastModified="140ef3bfa20">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="13ec889a424">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\pictures\BMP\stm32F4.c" lastModified="145febb92ea">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\pictures\GIF\tunnel.c" lastModified="145a4eaac68">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.h" lastModified="13de4a16030">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_usb_cdc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="13ec889aac8">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.c" lastModified="13dead12d50">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h" lastModified="1418ada3718">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_regs.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_defines.h"/>
+      </source>
+      <source file="..\..\..\pictures\BMP\ATN_Logo.c" lastModified="1456c821a44">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="13ec889a653">
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.c" lastModified="13deabf4360">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h" lastModified="14441037502">
+      </source>
+      <source file="..\..\..\pictures\BMP\bio.c" lastModified="145fcd10813">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h" lastModified="13dea9c6980">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="13ec889a258">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="13ec889aa98">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.c" lastModified="13deaafab30">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="13ec889b33d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="146670f500b">
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\ws2811_Lib\ws2811.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_led.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_button.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_systick.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_irmp.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_ee_flash.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_usb_cdc.h"/>
+         <include file="..\..\..\Arduino\WMath.h"/>
+         <include file="..\..\..\rc5.h"/>
+         <include file="..\..\..\pictures\pictures.h"/>
+      </source>
+      <source file="..\..\..\pictures\BMP\stm32.c" lastModified="145febb7022">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_irmp.h" lastModified="13e891440b0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmp.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmpsystem.h" lastModified="13e88ee4608">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h" lastModified="14209518639">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\pictures\GIF\sonic.c" lastModified="145aa4ab776">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_irmp.c" lastModified="13e89163c80">
+         <include file="..\..\..\ub_lib\stm32_ub_irmp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.h" lastModified="141b2ea57fc">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+         <include file="..\..\..\ub_lib\usb_mem.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.c" lastModified="13deac2b630">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h" lastModified="13de4996920">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h" lastModified="13de49a3440">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\pictures\BMP\GAMMA.c" lastModified="145fe9b6b07">
+         <include file="..\..\..\pictures\GUI.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.c" lastModified="1443cbb4363">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.h"/>
+      </source>
+      <source file="..\..\..\pictures\pictures.h" lastModified="145febcc96e">
+         <include file="..\..\..\ws2811_Lib\ws2811.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\cmsis_lib /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\cmsis_boot /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\ub_lib\irmp_lolevel /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\ub_lib /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\pictures /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\cmsis /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14 /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\Arduino /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\ub_lib\usb_cdc_lolevel /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL /I..\..\..\..\..\Users\Frederik.HP\Desktop\Diplomarbeit\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\cmsis_lib\include">
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.c" lastModified="13de4a0ac80">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+      </source>
+      <source file="..\..\..\pictures\pictures.c" lastModified="145a5fbe8ca">
+         <include file="..\..\..\pictures\pictures.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h" lastModified="13de499af70">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.c" lastModified="1415e9c1c45">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_regs.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="13ec889d5b4">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="13ec889b33e">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\Arduino\WMath.c" lastModified="13a714d7ea2">
+         <include file="..\..\..\Arduino\WMath.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h" lastModified="13de499edf0">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.c" lastModified="13de4a00870">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\pictures\GUI.h" lastModified="1455c844be4">
+         <include file="..\..\..\pictures\pictures.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="13ec889d5b4">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_systick.h" lastModified="13ea8d48185">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_systick.c" lastModified="13ec903df44">
+         <include file="..\..\..\ub_lib\stm32_ub_systick.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_led.h" lastModified="13cc55be700">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_regs.h" lastModified="13de4af0460">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_led.c" lastModified="13cc5289260">
+         <include file="..\..\..\ub_lib\stm32_ub_led.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="13ec889ca3f">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_flash.c" lastModified="140ef3bfa20">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmpconfig.h" lastModified="14596182baf">
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_button.c" lastModified="14193911970">
+         <include file="..\..\..\ub_lib\stm32_ub_button.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="13ec889a423">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="13ec889a25e">
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h" lastModified="13de4975db0">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="13ec889a25d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmpprotocols.h" lastModified="13e88ee0b70">
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.c" lastModified="13de4a8f980">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_mem.c" lastModified="14488587627">
+         <include file="..\..\..\ub_lib\usb_mem.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmp.h" lastModified="13e88eddc90">
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmpsystem.h"/>
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmpconfig.h"/>
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmpprotocols.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_defines.h" lastModified="13de4af0460">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.h" lastModified="14209535ff6">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_mem.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\led_usb.c" lastModified="145957c2ee4">
+         <include file="..\..\..\ub_lib\led_usb.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_usb_cdc.h" lastModified="13de487f460">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.h" lastModified="13de4a88450">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.c" lastModified="145957bf786">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_led.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_usb_cdc.c" lastModified="13f70f21a10">
+         <include file="..\..\..\ub_lib\stm32_ub_usb_cdc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.c" lastModified="13f70f21240">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="13ec893acb3">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h" lastModified="142b82d6e34">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="13ec889ca55">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_ee_flash.h" lastModified="145677362e6">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_ee_flash.c" lastModified="140ef417090">
+         <include file="..\..\..\ub_lib\stm32_ub_ee_flash.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h" lastModified="140ef3bfa20">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="13ec889a424">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.h" lastModified="13de4a16030">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_usb_cdc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="13ec889aac8">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.c" lastModified="13dead12d50">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h" lastModified="1418ada3718">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_regs.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_defines.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.c" lastModified="13deabf4360">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h" lastModified="14441037502">
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h" lastModified="13dea9c6980">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="13ec889a258">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="13ec889aa98">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.c" lastModified="13deaafab30">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="13ec889b33d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_irmp.h" lastModified="13e891440b0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmp.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h" lastModified="14209518639">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_irmp.c" lastModified="13e89163c80">
+         <include file="..\..\..\ub_lib\stm32_ub_irmp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.h" lastModified="141b2ea57fc">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+         <include file="..\..\..\ub_lib\usb_mem.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.c" lastModified="13deac2b630">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h" lastModified="13de4996920">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h" lastModified="13de49a3440">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.c" lastModified="1443cbb4363">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_28_4_14\ub_lib\irmp_lolevel /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_28_4_14\Arduino /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_28_4_14\ub_lib /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_28_4_14\cmsis_boot /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14 /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_28_4_14\pictures /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_28_4_14\cmsis /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_28_4_14\ub_lib\usb_cdc_lolevel /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_28_4_14\cmsis_lib\include /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_28_4_14 /I..\..\..\..\..\Users\Frederik.HP\Desktop /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_28_4_14\cmsis_lib">
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.c" lastModified="13de4a0ac80">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+      </source>
+      <source file="..\..\..\pictures\pictures.c" lastModified="145a5fbe8ca">
+         <include file="..\..\..\pictures\pictures.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h" lastModified="13de499af70">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.c" lastModified="1415e9c1c45">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_regs.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="13ec889d5b4">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="13ec889b33e">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\Arduino\WMath.c" lastModified="13a714d7ea2">
+         <include file="..\..\..\Arduino\WMath.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h" lastModified="13de499edf0">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.c" lastModified="13de4a00870">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\pictures\GUI.h" lastModified="1455c844be4">
+         <include file="..\..\..\pictures\pictures.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="13ec889d5b4">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_systick.h" lastModified="13ea8d48185">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_systick.c" lastModified="13ec903df44">
+         <include file="..\..\..\ub_lib\stm32_ub_systick.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_led.h" lastModified="13cc55be700">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_regs.h" lastModified="13de4af0460">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_led.c" lastModified="13cc5289260">
+         <include file="..\..\..\ub_lib\stm32_ub_led.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="13ec889ca3f">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_flash.c" lastModified="140ef3bfa20">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmpconfig.h" lastModified="14596182baf">
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_button.c" lastModified="14193911970">
+         <include file="..\..\..\ub_lib\stm32_ub_button.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="13ec889a423">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="13ec889a25e">
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h" lastModified="13de4975db0">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="13ec889a25d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmpprotocols.h" lastModified="13e88ee0b70">
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.c" lastModified="13de4a8f980">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_mem.c" lastModified="14488587627">
+         <include file="..\..\..\ub_lib\usb_mem.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmp.h" lastModified="13e88eddc90">
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmpsystem.h"/>
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmpconfig.h"/>
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmpprotocols.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_defines.h" lastModified="13de4af0460">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.h" lastModified="14209535ff6">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_mem.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\led_usb.c" lastModified="145957c2ee4">
+         <include file="..\..\..\ub_lib\led_usb.h"/>
+      </source>
+      <source file="..\..\..\rc5.h" lastModified="14557f93fe5">
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_usb_cdc.h" lastModified="13de487f460">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.h" lastModified="13de4a88450">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.c" lastModified="145957bf786">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_led.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_usb_cdc.c" lastModified="13f70f21a10">
+         <include file="..\..\..\ub_lib\stm32_ub_usb_cdc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.c" lastModified="13f70f21240">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="13ec893acb3">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h" lastModified="142b82d6e34">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="13ec889ca55">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_ee_flash.h" lastModified="145677362e6">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_ee_flash.c" lastModified="140ef417090">
+         <include file="..\..\..\ub_lib\stm32_ub_ee_flash.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h" lastModified="140ef3bfa20">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="13ec889a424">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.h" lastModified="13de4a16030">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_usb_cdc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="13ec889aac8">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.c" lastModified="13dead12d50">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h" lastModified="1418ada3718">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_regs.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_defines.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.c" lastModified="13deabf4360">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h" lastModified="14441037502">
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h" lastModified="13dea9c6980">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="13ec889a258">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="13ec889aa98">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.c" lastModified="13deaafab30">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="13ec889b33d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_irmp.h" lastModified="13e891440b0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmp.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h" lastModified="14209518639">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_irmp.c" lastModified="13e89163c80">
+         <include file="..\..\..\ub_lib\stm32_ub_irmp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.h" lastModified="141b2ea57fc">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+         <include file="..\..\..\ub_lib\usb_mem.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.c" lastModified="13deac2b630">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h" lastModified="13de4996920">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h" lastModified="13de49a3440">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.c" lastModified="1443cbb4363">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_30_4_14\ub_lib\irmp_lolevel /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_30_4_14\cmsis_lib /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_30_4_14\cmsis_boot /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_30_4_14\ub_lib\usb_cdc_lolevel /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_30_4_14\cmsis /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_30_4_14\Arduino /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14 /I..\..\..\..\..\Users\Frederik.HP\Desktop /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_30_4_14\ub_lib /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_30_4_14\cmsis_lib\include /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_30_4_14 /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_30_4_14\pictures">
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.c" lastModified="13de4a0ac80">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+      </source>
+      <source file="..\..\..\pictures\pictures.c" lastModified="145a5fbe8ca">
+         <include file="..\..\..\pictures\pictures.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h" lastModified="13de499af70">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.c" lastModified="1415e9c1c45">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_regs.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="13ec889d5b4">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="13ec889b33e">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\Arduino\WMath.c" lastModified="13a714d7ea2">
+         <include file="..\..\..\Arduino\WMath.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h" lastModified="13de499edf0">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.c" lastModified="13de4a00870">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\pictures\GUI.h" lastModified="1455c844be4">
+         <include file="..\..\..\pictures\pictures.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="13ec889d5b4">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_systick.h" lastModified="13ea8d48185">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_systick.c" lastModified="13ec903df44">
+         <include file="..\..\..\ub_lib\stm32_ub_systick.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_led.h" lastModified="13cc55be700">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_regs.h" lastModified="13de4af0460">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_led.c" lastModified="13cc5289260">
+         <include file="..\..\..\ub_lib\stm32_ub_led.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="13ec889ca3f">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_flash.c" lastModified="140ef3bfa20">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmpconfig.h" lastModified="14596182baf">
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_button.c" lastModified="14193911970">
+         <include file="..\..\..\ub_lib\stm32_ub_button.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="13ec889a423">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="13ec889a25e">
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h" lastModified="13de4975db0">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="13ec889a25d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmpprotocols.h" lastModified="13e88ee0b70">
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.c" lastModified="13de4a8f980">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_mem.c" lastModified="14488587627">
+         <include file="..\..\..\ub_lib\usb_mem.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmp.h" lastModified="13e88eddc90">
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmpsystem.h"/>
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmpconfig.h"/>
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmpprotocols.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_defines.h" lastModified="13de4af0460">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.h" lastModified="14209535ff6">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_mem.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\led_usb.c" lastModified="145957c2ee4">
+         <include file="..\..\..\ub_lib\led_usb.h"/>
+      </source>
+      <source file="..\..\..\rc5.h" lastModified="14557f93fe5">
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_usb_cdc.h" lastModified="13de487f460">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.h" lastModified="13de4a88450">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.c" lastModified="145957bf786">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_led.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_usb_cdc.c" lastModified="13f70f21a10">
+         <include file="..\..\..\ub_lib\stm32_ub_usb_cdc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.c" lastModified="13f70f21240">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="13ec893acb3">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h" lastModified="142b82d6e34">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="13ec889ca55">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_ee_flash.h" lastModified="145677362e6">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_ee_flash.c" lastModified="140ef417090">
+         <include file="..\..\..\ub_lib\stm32_ub_ee_flash.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h" lastModified="140ef3bfa20">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="13ec889a424">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.h" lastModified="13de4a16030">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_usb_cdc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="13ec889aac8">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.c" lastModified="13dead12d50">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h" lastModified="1418ada3718">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_regs.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_defines.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.c" lastModified="13deabf4360">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h" lastModified="14441037502">
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h" lastModified="13dea9c6980">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="13ec889a258">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="13ec889aa98">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.c" lastModified="13deaafab30">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="13ec889b33d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_irmp.h" lastModified="13e891440b0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmp.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h" lastModified="14209518639">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_irmp.c" lastModified="13e89163c80">
+         <include file="..\..\..\ub_lib\stm32_ub_irmp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.h" lastModified="141b2ea57fc">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+         <include file="..\..\..\ub_lib\usb_mem.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.c" lastModified="13deac2b630">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h" lastModified="13de4996920">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h" lastModified="13de49a3440">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.c" lastModified="1443cbb4363">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_1_5_14\cmsis /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_1_5_14\Arduino /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_1_5_14\ub_lib /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_1_5_14\cmsis_lib /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14 /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_1_5_14\ub_lib\irmp_lolevel /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_1_5_14 /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_1_5_14\pictures /I..\..\..\..\..\Users\Frederik.HP\Desktop /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_1_5_14\cmsis_lib\include /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_1_5_14\cmsis_boot /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_1_5_14\ub_lib\usb_cdc_lolevel">
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.c" lastModified="13de4a0ac80">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+      </source>
+      <source file="..\..\..\pictures\pictures.c" lastModified="145a5fbe8ca">
+         <include file="..\..\..\pictures\pictures.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h" lastModified="13de499af70">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.c" lastModified="1415e9c1c45">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_regs.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="13ec889d5b4">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="13ec889b33e">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\Arduino\WMath.c" lastModified="13a714d7ea2">
+         <include file="..\..\..\Arduino\WMath.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h" lastModified="13de499edf0">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.c" lastModified="13de4a00870">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\pictures\GUI.h" lastModified="1455c844be4">
+         <include file="..\..\..\pictures\pictures.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="13ec889d5b4">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_systick.h" lastModified="13ea8d48185">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_systick.c" lastModified="13ec903df44">
+         <include file="..\..\..\ub_lib\stm32_ub_systick.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_led.h" lastModified="13cc55be700">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_regs.h" lastModified="13de4af0460">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_led.c" lastModified="13cc5289260">
+         <include file="..\..\..\ub_lib\stm32_ub_led.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="13ec889ca3f">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_flash.c" lastModified="140ef3bfa20">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmpconfig.h" lastModified="14596182baf">
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_button.c" lastModified="14193911970">
+         <include file="..\..\..\ub_lib\stm32_ub_button.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="13ec889a423">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="13ec889a25e">
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h" lastModified="13de4975db0">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="13ec889a25d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmpprotocols.h" lastModified="13e88ee0b70">
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.c" lastModified="13de4a8f980">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_mem.c" lastModified="14488587627">
+         <include file="..\..\..\ub_lib\usb_mem.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmp.h" lastModified="13e88eddc90">
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmpsystem.h"/>
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmpconfig.h"/>
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmpprotocols.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_defines.h" lastModified="13de4af0460">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.h" lastModified="14209535ff6">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_mem.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\led_usb.c" lastModified="145957c2ee4">
+         <include file="..\..\..\ub_lib\led_usb.h"/>
+      </source>
+      <source file="..\..\..\rc5.h" lastModified="14557f93fe5">
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_usb_cdc.h" lastModified="13de487f460">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.h" lastModified="13de4a88450">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.c" lastModified="145957bf786">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_led.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_usb_cdc.c" lastModified="13f70f21a10">
+         <include file="..\..\..\ub_lib\stm32_ub_usb_cdc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.c" lastModified="13f70f21240">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="13ec893acb3">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h" lastModified="142b82d6e34">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="13ec889ca55">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_ee_flash.h" lastModified="145677362e6">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_ee_flash.c" lastModified="140ef417090">
+         <include file="..\..\..\ub_lib\stm32_ub_ee_flash.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h" lastModified="140ef3bfa20">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="13ec889a424">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.h" lastModified="13de4a16030">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_usb_cdc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="13ec889aac8">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.c" lastModified="13dead12d50">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h" lastModified="1418ada3718">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_regs.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_defines.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.c" lastModified="13deabf4360">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h" lastModified="14441037502">
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h" lastModified="13dea9c6980">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="13ec889a258">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="13ec889aa98">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.c" lastModified="13deaafab30">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="13ec889b33d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_irmp.h" lastModified="13e891440b0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmp.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h" lastModified="14209518639">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_irmp.c" lastModified="13e89163c80">
+         <include file="..\..\..\ub_lib\stm32_ub_irmp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.h" lastModified="141b2ea57fc">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+         <include file="..\..\..\ub_lib\usb_mem.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.c" lastModified="13deac2b630">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h" lastModified="13de4996920">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h" lastModified="13de49a3440">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.c" lastModified="1443cbb4363">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_2_5_14\cmsis_boot /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_2_5_14\cmsis /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_2_5_14\Arduino /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_2_5_14\ub_lib\irmp_lolevel /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_2_5_14 /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_2_5_14\pictures /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14 /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_2_5_14\cmsis_lib /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_2_5_14\ub_lib\usb_cdc_lolevel /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_2_5_14\ub_lib /I..\..\..\..\..\Users\Frederik.HP\Desktop /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_DMA_to_PORT_5_3_14\WS2811_DMA_to_PORT_2_5_14\cmsis_lib\include">
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.c" lastModified="13de4a0ac80">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+      </source>
+      <source file="..\..\..\pictures\pictures.c" lastModified="145a5fbe8ca">
+         <include file="..\..\..\pictures\pictures.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h" lastModified="13de499af70">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.c" lastModified="1415e9c1c45">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_regs.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="13ec889d5b4">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="13ec889b33e">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\Arduino\WMath.c" lastModified="13a714d7ea2">
+         <include file="..\..\..\Arduino\WMath.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h" lastModified="13de499edf0">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.c" lastModified="13de4a00870">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\pictures\GUI.h" lastModified="1455c844be4">
+         <include file="..\..\..\pictures\pictures.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="13ec889d5b4">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_systick.h" lastModified="13ea8d48185">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_systick.c" lastModified="13ec903df44">
+         <include file="..\..\..\ub_lib\stm32_ub_systick.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_led.h" lastModified="13cc55be700">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_regs.h" lastModified="13de4af0460">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_led.c" lastModified="13cc5289260">
+         <include file="..\..\..\ub_lib\stm32_ub_led.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="13ec889ca3f">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_flash.c" lastModified="140ef3bfa20">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmpconfig.h" lastModified="14596182baf">
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_button.c" lastModified="14193911970">
+         <include file="..\..\..\ub_lib\stm32_ub_button.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="13ec889a423">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="13ec889a25e">
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h" lastModified="13de4975db0">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="13ec889a25d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmpprotocols.h" lastModified="13e88ee0b70">
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.c" lastModified="13de4a8f980">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_mem.c" lastModified="14488587627">
+         <include file="..\..\..\ub_lib\usb_mem.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmp.h" lastModified="13e88eddc90">
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmpsystem.h"/>
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmpconfig.h"/>
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmpprotocols.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_defines.h" lastModified="13de4af0460">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.h" lastModified="14209535ff6">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_mem.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\led_usb.c" lastModified="145957c2ee4">
+         <include file="..\..\..\ub_lib\led_usb.h"/>
+      </source>
+      <source file="..\..\..\rc5.h" lastModified="14557f93fe5">
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_usb_cdc.h" lastModified="13de487f460">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.h" lastModified="13de4a88450">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.c" lastModified="145957bf786">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_led.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_usb_cdc.c" lastModified="13f70f21a10">
+         <include file="..\..\..\ub_lib\stm32_ub_usb_cdc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.c" lastModified="13f70f21240">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="13ec893acb3">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h" lastModified="142b82d6e34">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="13ec889ca55">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_ee_flash.h" lastModified="145677362e6">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_ee_flash.c" lastModified="140ef417090">
+         <include file="..\..\..\ub_lib\stm32_ub_ee_flash.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h" lastModified="140ef3bfa20">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="13ec889a424">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.h" lastModified="13de4a16030">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_usb_cdc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="13ec889aac8">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.c" lastModified="13dead12d50">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h" lastModified="1418ada3718">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_regs.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_defines.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.c" lastModified="13deabf4360">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h" lastModified="14441037502">
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h" lastModified="13dea9c6980">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="13ec889a258">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="13ec889aa98">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.c" lastModified="13deaafab30">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="13ec889b33d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_irmp.h" lastModified="13e891440b0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmp.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h" lastModified="14209518639">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_irmp.c" lastModified="13e89163c80">
+         <include file="..\..\..\ub_lib\stm32_ub_irmp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.h" lastModified="141b2ea57fc">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+         <include file="..\..\..\ub_lib\usb_mem.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.c" lastModified="13deac2b630">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h" lastModified="13de4996920">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h" lastModified="13de49a3440">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.c" lastModified="1443cbb4363">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\ub_lib\usb_cdc_lolevel /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_FINAL /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\pictures /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\cmsis_boot /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\ub_lib\irmp_lolevel /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\cmsis_lib\include /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\Arduino /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\cmsis_lib /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\cmsis /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14\ub_lib /I..\..\..\..\..\Users\Frederik.HP\Desktop\WS2811_FINAL\WS2811_DMA_to_PORT_2_5_14 /I..\..\..\..\..\Users\Frederik.HP\Desktop">
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.c" lastModified="13de4a0ac80">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+      </source>
+      <source file="..\..\..\pictures\pictures.c" lastModified="145a5fbe8ca">
+         <include file="..\..\..\pictures\pictures.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h" lastModified="13de499af70">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.c" lastModified="1415e9c1c45">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_regs.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="13ec889d5b4">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="13ec889b33e">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\Arduino\WMath.c" lastModified="13a714d7ea2">
+         <include file="..\..\..\Arduino\WMath.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h" lastModified="13de499edf0">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.c" lastModified="13de4a00870">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\pictures\GUI.h" lastModified="1455c844be4">
+         <include file="..\..\..\pictures\pictures.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="13ec889d5b4">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_systick.h" lastModified="13ea8d48185">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_systick.c" lastModified="13ec903df44">
+         <include file="..\..\..\ub_lib\stm32_ub_systick.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_led.h" lastModified="13cc55be700">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_regs.h" lastModified="13de4af0460">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_led.c" lastModified="13cc5289260">
+         <include file="..\..\..\ub_lib\stm32_ub_led.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="13ec889ca3f">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_flash.c" lastModified="140ef3bfa20">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmpconfig.h" lastModified="14596182baf">
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_button.c" lastModified="14193911970">
+         <include file="..\..\..\ub_lib\stm32_ub_button.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="13ec889a423">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="13ec889a25e">
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h" lastModified="13de4975db0">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="13ec889a25d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmpprotocols.h" lastModified="13e88ee0b70">
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.c" lastModified="13de4a8f980">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_mem.c" lastModified="14488587627">
+         <include file="..\..\..\ub_lib\usb_mem.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\irmp_lolevel\irmp.h" lastModified="13e88eddc90">
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmpsystem.h"/>
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmpconfig.h"/>
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmpprotocols.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_defines.h" lastModified="13de4af0460">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.h" lastModified="14209535ff6">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_mem.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\led_usb.c" lastModified="145957c2ee4">
+         <include file="..\..\..\ub_lib\led_usb.h"/>
+      </source>
+      <source file="..\..\..\rc5.h" lastModified="14557f93fe5">
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_usb_cdc.h" lastModified="13de487f460">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.h" lastModified="13de4a88450">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.c" lastModified="145957bf786">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_led.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_usb_cdc.c" lastModified="13f70f21a10">
+         <include file="..\..\..\ub_lib\stm32_ub_usb_cdc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.c" lastModified="13f70f21240">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="13ec893acb3">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h" lastModified="142b82d6e34">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="13ec889ca55">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_ee_flash.h" lastModified="145677362e6">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_ee_flash.c" lastModified="140ef417090">
+         <include file="..\..\..\ub_lib\stm32_ub_ee_flash.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h" lastModified="140ef3bfa20">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="13ec889a424">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.h" lastModified="13de4a16030">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_usb_cdc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="13ec889aac8">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.c" lastModified="13dead12d50">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h" lastModified="1418ada3718">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_regs.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_defines.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.c" lastModified="13deabf4360">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h" lastModified="14441037502">
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h" lastModified="13dea9c6980">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="13ec889a258">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="13ec889aa98">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.c" lastModified="13deaafab30">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="13ec889b33d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_irmp.h" lastModified="13e891440b0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\irmp_lolevel\irmp.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h" lastModified="14209518639">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_irmp.c" lastModified="13e89163c80">
+         <include file="..\..\..\ub_lib\stm32_ub_irmp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.h" lastModified="141b2ea57fc">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.h"/>
+         <include file="..\..\..\ub_lib\usb_mem.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.c" lastModified="13deac2b630">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h" lastModified="13de4996920">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.h" lastModified="13de49a3440">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_def.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.h"/>
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.c" lastModified="1443cbb4363">
+         <include file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.h"/>
+      </source>
+   </includePath>
+</dependencies>
