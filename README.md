@@ -1,6 +1,6 @@
 SedecimWS2811
 =============
-WS2811 Lib with DMA
+WS2811 Lib with DMA for STM32F407VG (Discovery Board)
 
 16 parallel outputs can drive thousands of leds
 
